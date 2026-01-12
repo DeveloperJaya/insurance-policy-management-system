@@ -32,7 +32,7 @@ function AddPolicy({ selectedPolicy, onSaveSuccess, onCancelEdit }) {
 
     action.then(() => {
       onSaveSuccess();
-      onCancelEdit();
+      //onCancelEdit();
     });
   };
 
