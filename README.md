@@ -15,7 +15,7 @@ If you want to purchase this project or want to hire me as a FullStack developer
 
 Whatsapp me at +91-9677016197.
 
-Looing forward to work with you.
+Looking forward to work with you.
 
 Thanks & Regards,
 Jayashree Das
