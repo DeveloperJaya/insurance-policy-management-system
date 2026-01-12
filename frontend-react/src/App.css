@@ -1,0 +1,14 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+}

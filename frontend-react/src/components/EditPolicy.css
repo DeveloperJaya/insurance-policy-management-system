@@ -1,0 +1,38 @@
+.edit-container {
+  padding: 15px;
+  border: 1px solid #bbb;
+  margin-bottom: 20px;
+  background-color: #fafafa;
+}
+
+.input-row {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+}
+
+.input-row input {
+  padding: 6px;
+}
+
+.button-row {
+  margin-top: 15px;
+  display: flex;
+  gap: 15px;
+}
+
+.btn {
+  padding: 8px 18px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn.update {
+  background-color: green;
+  color: white;
+}
+
+.btn.cancel {
+  background-color: gray;
+  color: white;
+}

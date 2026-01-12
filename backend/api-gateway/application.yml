@@ -1,0 +1,19 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: API-GATEWAY
+
+  cloud:
+    gateway:
+      routes:
+        - id: policy-service
+          uri: lb://POLICY-SERVICE
+          predicates:
+            - Path=/policies/**
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
